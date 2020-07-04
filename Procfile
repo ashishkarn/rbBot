@@ -1,1 +1,1 @@
-worker python discord/discord_bot.py
+worker: sh -c 'cd ./discord/ && python discord_bot.py'
