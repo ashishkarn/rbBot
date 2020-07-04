@@ -61,7 +61,7 @@ print("Executing")
 if __name__ == '__main__':
     try:
         # Run Discord bot
-        client.run(token)
+        client.run(token[:-1])
         #logger.info("Started Discord client")
     except Exception as e:
         #logger.exception("Error while running Discord client: {}".format(str(vars(e))))
